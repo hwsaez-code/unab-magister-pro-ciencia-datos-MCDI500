@@ -1,0 +1,8 @@
+pandas>=2.3,<2.4
+numpy>=2.3,<2.4
+matplotlib>=3.10,<3.11
+seaborn>=0.13,<0.14
+jupyterlab>=4.4,<4.5
+notebook>=7.4,<7.5
+ipykernel>=6.29,<6.30
+scikit-learn>=1.7,<1.8
