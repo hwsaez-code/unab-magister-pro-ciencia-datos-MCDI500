@@ -86,7 +86,32 @@ En esta fase se realizan las transformaciones necesarias para obtener un dataset
 - Transformación de variables.
 - Selección de atributos relevantes.
 
-### Resultado esperado
+---
+
+### 4. Etapa de Modularización y Orquestación (POO)
+
+Componentes a considerar: 
+
+- Análisis y diagnóstico de calidad de datos automáticos.
+- Limpieza estructural y conversión de tipos.
+- Jerarquía de clases para tratamiento y alteración de variables.
+- Normalización de texto, fechas y nomenclaturas.
+- Suite para asegurar la integridad de los resultados.
+- Orquestador central encargado de unir todos los módulos.
+
+### Procesos considerados
+
+- Organización del código en clases independientes.
+- Imputación y escalado de variables usando POO.
+- Limpieza y reemplazo de valores nulos.
+- Unificación de alias y categorías repetidas.
+- Formateo de textos.
+- Estandarización de nombres de columnas.
+- Escalamiento y normalización de números.
+- Asignación de regiones mediante recursividad.
+- Validación automática de casos de prueba.
+- Creación de un pipeline de ejecución continuo.
+
 
 Un conjunto de datos consistente, limpio y documentado para futuras etapas de modelado y evaluación.
 
@@ -104,9 +129,12 @@ proyecto-ciencia-datos/
 ├── datos/
 │   ├── original/
 │   ├── resultado/
+│   ├── comunas-regiones.json
 │
 ├── notebooks/
-│   ├── Notebook F1_Definición.ipynb
+│   ├── Notebook F1_Definición.ipynb 
+│   ├── Notebook F2_Transformation.ipynb
+│   ├── Notebook F3_POO.ipynb       
 │
 ├── src/
 │
